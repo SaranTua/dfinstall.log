@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="appsiam.tua.saran.mysiam.MainActivity">
+    tools:context="appsiam.tua.saran.mysiam.MainActivity">// ctrl+space เลือก noaction แล้วกด tap เพื่อปิด action bar เก่า
 
     <ImageView
         android:scaleType="centerCrop"
@@ -91,7 +91,7 @@
             android:id="@+id/txtNewRegister"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="@dimen/h2"
-            android:text="New Register"
+            android:text="@string/new_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
